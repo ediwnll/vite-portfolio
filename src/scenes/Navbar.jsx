@@ -30,7 +30,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
         <h4 className=" font-playfair text-3xl font-bold">EHZX</h4>
         {/* Desktop Nav */}
         {isDesktop ? (
-          <div className="flex justify-between gap-16 font-opensans text-sm font-semibold">
+          <div className="flex justify-between gap-16 font-opensans text-lg font-semibold">
             <Link
               page="Home"
               selectedPage={selectedPage}
